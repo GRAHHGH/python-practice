@@ -30,4 +30,17 @@ print(company2.split(", "))
 print(company[0])
 print(company[-1])
 print(company[10])
-print(company1[0], company1[7], company1[11])
+print((company1[0], company1[7], company1[11]))
+print(company.index("C"))
+print(company.index("F"))
+
+company3 = "Coding For All People"
+
+print(company3.rfind("i"))
+
+company4 = 'You cannot end a sentence with because because because is a conjunction'
+
+print(company4.index('because'))
+print(company4.rindex('because'))
+
+print(company4[31:54])
